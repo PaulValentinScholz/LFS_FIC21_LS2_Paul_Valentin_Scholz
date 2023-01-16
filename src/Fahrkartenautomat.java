@@ -100,7 +100,6 @@ class Fahrkartenautomat {
     }
 
     public static void rückgeldAusgeben(double rückgabebetrag) {
-
         if (rückgabebetrag > 0.0) {
             System.out.format("  Der Rückgabebetrag in Höhe von %4.2f € %n", rückgabebetrag);
             System.out.println("  wird in folgenden Münzen ausgezahlt:");
